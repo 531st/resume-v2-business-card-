@@ -105,19 +105,24 @@
         margin-top: 2rem;
     }
 
-    @media(max-width: 600px){
+    @media(max-width: 900px){
         .main-container,
         .nav,
         .greet-nav-wrapper,
-        .content,
-        .stack-slide,
-        .contact-slide {
+        .content {
             display: block;
-            width: 90%;
+            width: 18rem;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        .greet-nav-wrapper,
+        .content{
+            align-items: center;
         }
 
         .main-container-top{
-            margin-top: -14lvh;
+            margin-top: -16lvh;
         }
 
         .greeter,
@@ -127,9 +132,9 @@
         }
 
         .content,
-        .stack-slide,
-        .contact-slide {
-            margin-left: 0vh;
+        .stack-slide {
+            margin-left: 0;
+            max-width: 18.1rem;
         }
     }
 
